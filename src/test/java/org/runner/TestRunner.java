@@ -16,5 +16,7 @@ public class TestRunner {
 	public static void afterClass() {
 		String path = System.getProperty("user.dir");
 		Reporting.generateReport(path + "\\src\\test\\resources\\Reports\\output.json");
+		System.out.println("success");
+		System.out.println("the end");
 	}
 }
